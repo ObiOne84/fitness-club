@@ -70,6 +70,33 @@ header {
 
 #hero-image {
     height: 600px;
-    width: 100%;
+    width: 70%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
+
+#image-holder {
+    position: relative;
+}
+
+#box-text {
+    display: flex;
+    align-items: center;
+    /*horizontal centering*/
+    justify-content: center;
+    /*vertical centering*/
+    flex-direction: column;
+    /*keep the h2 above h3*/
+    color: inherit;
+    font-size: 150%;
+    font-family: "Fjalla One" sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    width: 30%;
+    height: 100%;
+    background-color: #fffcf2;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
