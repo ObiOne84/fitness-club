@@ -59,11 +59,11 @@ button {
     box-shadow: 4px 4px rgb(73, 72, 72);
 }
 
-/* header {
+header {
     background-color: #252422;
-    height: 150px;
+    height: 75px;
     width: 100%;
-} */
+}
 
 #hero-image {
     height: 600px;
