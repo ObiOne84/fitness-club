@@ -16,7 +16,7 @@ body {
 h1 {
     font-family: "Fjalla One", sans-serif;
     /* color: #fffcf2;  */
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     letter-spacing: 7px;
     /* background-color: #252422;  style for header*/
 }
@@ -27,3 +27,39 @@ h1 {
     font-size: 300%;
     color: #fffcf2;
 }
+
+/* style menu */
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+    padding-right: 10px;
+}
+/* style navigation buttons*/
+
+button {
+    font-family: Cantarell, Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fffcf2;
+    font-size: 150%;
+    background-color: #252422;
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+#menu button:hover {
+    color: #eb5e28;
+}
+
+.active button {
+    color: #252422;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px rgb(73, 72, 72);
+}
+
+/* header {
+    background-color: #252422;
+    height: 150px;
+    width: 100%;
+} */
