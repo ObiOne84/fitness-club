@@ -9,4 +9,21 @@
 body {
     font-family: Cantarell, Montserrat, sans-serif;
     font-weight: 400;
+    color: #403d39
+}
+
+/*headings*/
+h1 {
+    font-family: "Fjalla One", sans-serif;
+    /* color: #fffcf2;  */
+    /* text-transform: uppercase; */
+    letter-spacing: 7px;
+    /* background-color: #252422;  style for header*/
+}
+
+/*style logo*/
+#logo {
+    float: left;
+    font-size: 300%;
+    color: #fffcf2;
 }
