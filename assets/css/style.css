@@ -15,10 +15,8 @@ body {
 /*headings*/
 h1 {
     font-family: "Fjalla One", sans-serif;
-    /* color: #fffcf2;  */
     text-transform: uppercase;
     letter-spacing: 7px;
-    /* background-color: #252422;  style for header*/
 }
 
 /*style logo*/
@@ -32,7 +30,6 @@ h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 12.5px;
     padding-right: 10px;
 }
 
@@ -51,6 +48,12 @@ button {
 
 #menu button:hover {
     color: #eb5e28;
+}
+
+/* aligining logo with navigation */
+#menu,
+#logo {
+    line-height: 75px;
 }
 
 .active button {
