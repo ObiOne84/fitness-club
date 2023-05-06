@@ -173,13 +173,16 @@ header {
 
 .class-offer {
     width: 20%;
+
     /* border: 1px solid #fffcf2; */
     background-size: cover;
     background-position: center;
     overflow: hidden;
     width: 19%;
+
     /* style background image to black & white */
     filter: grayscale(100%);
+
     /* Add overlay on the photos */
     background-blend-mode: multiply;
     background-color: rgba(72, 72, 72, 0.9);
@@ -224,4 +227,39 @@ header {
 #yoga {
     background-image: url('../images/yoga-training.jpeg');
     height: 80%;
+}
+
+/* style footer */
+footer {
+    height: 150px;
+    background-color: #252422;
+    line-height: 150px;
+    overflow: hidden;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+
+}
+
+/* .social-media a {
+    color: #fffcf2;
+    font-size: 200%;
+    padding: 2%;
+    margin: 1%;
+} */
+
+.social-media i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 1%;
+    color: #fffcf2;
+}
+
+.social-media i:hover {
+    color: #eb5e28;
 }
