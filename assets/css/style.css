@@ -163,4 +163,40 @@ header {
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    height: 600px;
+}
+
+.class-offer {
+    width: 20%;
+    border: 1px solid #fffcf2;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* insert images div for background  */
+#running {
+    background-image: url('../images/running-training.webp');
+    height: 90%;
+}
+
+#bodyweight {
+    background-image: url(../images/body-weight-training.jpeg);
+    height: 95%;
+}
+
+#weights {
+    background-image: url('../images/weights-training.webp');
+    height: 100%;
+}
+
+#boxing {
+    background-image: url('../images/boxing-training.jpeg');
+    height: 95%;
+    background-color: rgba(72, 72, 72, 0.6);
+}
+
+#yoga {
+    background-image: url('../images/yoga-training.jpeg');
+    height: 90%;
 }
