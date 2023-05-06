@@ -13,10 +13,12 @@ body {
 }
 
 /*headings*/
-h1 {
+h1,
+h2 {
     font-family: "Fjalla One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 7px;
+    color: #403d39;
 }
 
 /*style logo*/
@@ -112,3 +114,44 @@ header {
 }
 
 /* style about us section */
+
+#about-us {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fffcf2;
+    color: inherit;
+}
+
+#left-about-us {
+    width: 50%;
+    margin: 50px;
+}
+
+#right-about-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+}
+
+#price-offer {
+    background-color: rgba(235, 94, 40, 0.5);
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+
+#price-offer h1 {
+    font-size: 10rem;
+}
+
+#price-offer a {
+    text-decoration: none;
+}
+
+#price-offer h2 {
+    padding-top: 30px;
+}
