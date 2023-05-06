@@ -288,3 +288,12 @@ footer {
     background-position: center;
     filter: grayscale(100%);
 }
+
+/* style signup-form */
+#signup-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 1200px;
+}
