@@ -9,7 +9,8 @@
 body {
     font-family: Cantarell, Montserrat, sans-serif;
     font-weight: 400;
-    color: #403d39
+    color: #403d39;
+    background-color: #fffcf2;
 }
 
 /*headings*/
@@ -53,7 +54,7 @@ button {
     color: #eb5e28;
 }
 
-/* styling active button */
+/* style active button */
 button:active {
     color: #252422;
     background-color: #fffcf2;
@@ -61,7 +62,7 @@ button:active {
     transform: translateY(10px);
 }
 
-/* aligining logo with navigation */
+/* align logo with navigation */
 #menu,
 #logo {
     line-height: 75px;
@@ -113,13 +114,11 @@ header {
     position: absolute;
 }
 
-/* style about us section */
-
+/* style about us section with the flex-box */
 #about-us {
     height: 450px;
     display: flex;
     flex-direction: row;
-    background-color: #fffcf2;
     color: inherit;
 }
 
@@ -128,6 +127,7 @@ header {
     margin: 50px;
 }
 
+/* style price-offer with the flex-box */
 #right-about-us {
     display: flex;
     align-items: center;
@@ -137,15 +137,16 @@ header {
     width: 50%;
 }
 
+/* style text box */
 #price-offer {
-    background-color: rgba(235, 94, 40, 0.5);
+    background-color: rgba(235, 94, 40, 0.8);
     height: 300px;
     width: 50%;
     text-align: center;
 }
 
 #price-offer h1 {
-    font-size: 10rem;
+    font-size: 1000%;
 }
 
 #price-offer a {
@@ -154,4 +155,12 @@ header {
 
 #price-offer h2 {
     padding-top: 30px;
+}
+
+/* style classes section */
+#classes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
