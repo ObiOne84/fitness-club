@@ -24,6 +24,7 @@ h1 {
     float: left;
     font-size: 300%;
     color: #fffcf2;
+    margin-left: 20px;
 }
 
 /* style menu */
@@ -50,6 +51,14 @@ button {
     color: #eb5e28;
 }
 
+/* styling active button */
+button:active {
+    color: #252422;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px rgb(73, 72, 72);
+    transform: translateY(10px);
+}
+
 /* aligining logo with navigation */
 #menu,
 #logo {
@@ -68,6 +77,7 @@ header {
     width: 100%;
 }
 
+/* style hero image */
 #hero-image {
     height: 600px;
     width: 70%;
@@ -78,6 +88,7 @@ header {
     position: relative;
 }
 
+/* style text beside hero-image with flex-box */
 #box-text {
     display: flex;
     align-items: center;
@@ -100,3 +111,4 @@ header {
     position: absolute;
 }
 
+/* style about us section */
