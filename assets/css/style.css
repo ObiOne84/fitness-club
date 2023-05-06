@@ -19,7 +19,11 @@ h2 {
     font-family: "Fjalla One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 7px;
-    color: #403d39;
+    color: inherit;
+}
+
+h3 {
+    color: inherit;
 }
 
 /*style logo*/
@@ -151,6 +155,7 @@ header {
 
 #price-offer a {
     text-decoration: none;
+    color: inherit;
 }
 
 #price-offer h2 {
@@ -168,35 +173,56 @@ header {
 
 .class-offer {
     width: 20%;
-    border: 1px solid #fffcf2;
+    /* border: 1px solid #fffcf2; */
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    width: 19%;
+    /* style background image to black & white */
+    filter: grayscale(100%);
+    /* Add overlay on the photos */
+    background-blend-mode: multiply;
+    background-color: rgba(72, 72, 72, 0.7);
+
+    text-align: center;
+    margin: 1%;
+}
+
+.class-offer h2 {
+    padding-top: 15%;
+    color: #fffcf2;
+    font-size: 180%;
+}
+
+.class-offer h3 {
+    font-size: 140%;
+    color: #fffcf2;
+    padding-top: 10%;
 }
 
 /* insert images div for background  */
 #running {
     background-image: url('../images/running-training.webp');
-    height: 90%;
+    height: 80%;
 }
 
 #bodyweight {
     background-image: url(../images/body-weight-training.jpeg);
-    height: 95%;
+    height: 85%;
 }
 
 #weights {
     background-image: url('../images/weights-training.webp');
-    height: 100%;
+    height: 90%;
 }
 
 #boxing {
     background-image: url('../images/boxing-training.jpeg');
-    height: 95%;
+    height: 85%;
     background-color: rgba(72, 72, 72, 0.6);
 }
 
 #yoga {
     background-image: url('../images/yoga-training.jpeg');
-    height: 90%;
+    height: 80%;
 }
