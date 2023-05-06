@@ -279,3 +279,12 @@ footer {
 .social-media i:hover {
     color: #eb5e28;
 }
+
+/* join page insert background-image */
+#background-image {
+    background-image: url(../images/girl-inside-gym.webp);
+    height: 1800px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
