@@ -37,6 +37,7 @@ h3 {
 /* style menu */
 #menu li {
     float: right;
+    /* remove style from the list */
     list-style-type: none;
     padding-right: 10px;
 }
@@ -62,16 +63,19 @@ button {
 button:active {
     color: #252422;
     background-color: #fffcf2;
+    /* add shadow horizontal, vertical and color w3schools */
     box-shadow: 4px 4px rgb(73, 72, 72);
+    /* move button down 10px */
     transform: translateY(10px);
 }
 
 /* align logo with navigation */
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 150px;
 }
 
+/* reverse colors when press button */
 .active button {
     color: #252422;
     background-color: #fffcf2;
@@ -80,7 +84,7 @@ button:active {
 
 header {
     background-color: #252422;
-    height: 75px;
+    height: 150px;
     width: 100%;
 }
 
@@ -91,11 +95,12 @@ header {
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
+/* set postion of the image-holder as relative to  */
 #image-holder {
     position: relative;
 }
 
-/* style text beside hero-image with flex-box */
+/* style box-text beside hero-image with flex-box to center the text */
 #box-text {
     display: flex;
     align-items: center;
@@ -112,7 +117,8 @@ header {
 
     width: 30%;
     height: 100%;
-    background-color: #fffcf2;
+
+    /* set text box beside hero-image with absolute postion */
     right: 0;
     bottom: 0;
     position: absolute;
@@ -131,7 +137,7 @@ header {
     margin: 50px;
 }
 
-/* style price-offer with the flex-box */
+/* style price-offer with the flex-box css.tricks.com*/
 #right-about-us {
     display: flex;
     align-items: center;
@@ -143,23 +149,33 @@ header {
 
 /* style text box */
 #price-offer {
-    background-color: rgba(235, 94, 40, 0.8);
+    background-color: rgba(235, 94, 40, 0.9);
     height: 300px;
     width: 50%;
     text-align: center;
 }
 
+/* increase pirce offer font-size */
 #price-offer h1 {
     font-size: 1000%;
+
 }
 
+/* price-offer a attribute style for active and inactive */
 #price-offer a {
     text-decoration: none;
     color: inherit;
+    text-shadow: 3px 3px #fffcf2;
+}
+
+#price-offer a:hover {
+    color: #fffcf2;
+    text-shadow: 3px 3px 3px #252422;
 }
 
 #price-offer h2 {
     padding-top: 30px;
+
 }
 
 /* style classes section */
