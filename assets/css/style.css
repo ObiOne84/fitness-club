@@ -182,7 +182,7 @@ header {
     filter: grayscale(100%);
     /* Add overlay on the photos */
     background-blend-mode: multiply;
-    background-color: rgba(72, 72, 72, 0.7);
+    background-color: rgba(72, 72, 72, 0.9);
 
     text-align: center;
     margin: 1%;
@@ -191,11 +191,11 @@ header {
 .class-offer h2 {
     padding-top: 15%;
     color: #fffcf2;
-    font-size: 180%;
+    font-size: 200%;
 }
 
 .class-offer h3 {
-    font-size: 140%;
+    font-size: 150%;
     color: #fffcf2;
     padding-top: 10%;
 }
@@ -219,7 +219,6 @@ header {
 #boxing {
     background-image: url('../images/boxing-training.jpeg');
     height: 85%;
-    background-color: rgba(72, 72, 72, 0.6);
 }
 
 #yoga {
