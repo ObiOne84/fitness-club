@@ -77,7 +77,7 @@ button {
 }
 
 /* reverse colors when press button */
-.active button {
+.active {
     color: #252422;
     background-color: #fffcf2;
     box-shadow: 4px 4px rgb(73, 72, 72);
