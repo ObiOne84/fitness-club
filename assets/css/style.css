@@ -60,7 +60,7 @@ button {
 }
 
 /* style active button */
-button:active {
+#menu button:active {
     color: #252422;
     background-color: #fffcf2;
     /* add shadow horizontal, vertical and color w3schools */
@@ -350,6 +350,32 @@ footer {
 }
 
 /* set additional space between form fields */
-.join-form label {
+.join-form label,
+.singup-button {
     margin-top: 20px;
+}
+
+/* style form button */
+.singup-button {
+    text-align: center;
+    font-size: 130%;
+    letter-spacing: 1px;
+    color: #fffcf2;
+    background-color: rgba(64, 61, 57, 0.9);
+    padding: 10px;
+    border-radius: 2px;
+    display: block;
+}
+
+.singup-button:hover {
+    color: #eb5e28;
+    border: 2px solid #fffcf2;
+    background-color: #252422;
+}
+
+.singup-button:active {
+    transform: translateY(10px);
+    box-shadow: 3px 3px #252422;
+    background-color: #fffcf2;
+    color: #252422;
 }
