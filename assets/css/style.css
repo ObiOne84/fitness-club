@@ -380,3 +380,59 @@ footer {
     background-color: #fffcf2;
     color: #252422;
 }
+
+/* style contact details and location section */
+#contact-and-location {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 600px;
+}
+
+/* add size to contact and location divs */
+#contact-info,
+#location-map {
+    width: 50%;
+    height: 100%;
+}
+
+/* style contact-info conainer */
+#contact-info {
+    background-color: rgba(64, 61, 57, 0.6);
+    text-align: left;
+
+}
+
+/* set iframe dimensions */
+#location-map>iframe {
+    width: 100%;
+    height: inherit;
+}
+
+/* style h2 and h3 elements */
+#contact-info>h2,
+#contact-info>h3 {
+    color: #fffcf2;
+    font-size: 200%;
+    margin-left: 50px;
+    letter-spacing: 3px;
+}
+
+/* add some space from the top of the div */
+#contact-info>h2 {
+    font-size: 300%;
+    padding-top: 10%;
+}
+
+/* remove underline from a attribute */
+#contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* add style on hover to a attribute */
+#contact-info a:hover {
+    color: #eb5e28;
+}
