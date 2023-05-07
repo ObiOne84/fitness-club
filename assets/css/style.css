@@ -55,7 +55,8 @@ button {
     border-radius: 20%;
 }
 
-#menu button:hover {
+#menu button:hover,
+#logo:hover {
     color: #eb5e28;
 }
 
