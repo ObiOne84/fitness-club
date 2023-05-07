@@ -286,28 +286,70 @@ footer {
     height: 1800px;
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
-    background-blend-mode: multiply;
-    z-index: 1;
+    /* filter: grayscale(100%);*/
 }
 
 /* style signup-form */
-/* #signup-section {
-     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
+#signup-section {
     height: 1200px;
-} */
+}
 
-/* .join-form {
-    margin: 150px 10% 0 0;
+/* position form on the page with absolute */
+.join-form {
+    margin: 10% 40% 0 0;
     color: #fffcf2;
-    background-color: rgba(235, 94, 40, 1);
-    max-width: 300px;
-    height: 600px;
+    text-shadow: 1px 1px #252422;
+    background-color: rgba(235, 94, 40, 0.8);
+    max-width: 400px;
     position: absolute;
     left: 20%;
     padding: 50px;
+    border: 2px dashed #252422;
+    border-radius: 1%;
+}
+
+/* style h2 element of the form */
+.join-form>h2 {
+    margin: 2% 0 5% 0;
+    font-size: 200%;
+}
+
+/* style text input boxes */
+.text-input {
+    height: 40px;
+    width: 100%;
+
+    color: inherit;
+    padding-left: 2%;
+    margin-top: 5px 5px 5px 5px;
+    background-color: rgba(255, 252, 242, 0.8);
+    color: #403d39;
+    border: 2px dashed #252422;
+    border-radius: 1%;
+}
+
+/* style text box when in use (in focus) */
+.text-input:focus {
+    background-color: #fffcf2;
+    color: #403d39;
+    border: 2px solid #252422;
+}
+
+/* style text box on hover */
+.text-input:hover {
+    background-color: rgba(64, 61, 57, 0.5);
+    color: #fffcf2;
+    border: 2px solid #fffcf2;
+}
+
+/* display form element as block elements */
+.join-form label,
+.text-input {
+    font-size: 130%;
     display: block;
-} */
+}
+
+/* set additional space between form fields */
+.join-form label {
+    margin-top: 20px;
+}
