@@ -16,7 +16,7 @@ body {
 /*headings*/
 h1,
 h2 {
-    font-family: "Fjalla One", sans-serif;
+    font-family: "Fjalla-One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 7px;
     color: inherit;
@@ -112,7 +112,7 @@ header {
     /*keep the h2 above h3*/
     color: inherit;
     font-size: 150%;
-    font-family: "Fjalla One" sans-serif;
+    font-family: "Fjalla One", sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
 
@@ -157,7 +157,7 @@ header {
 }
 
 /* increase pirce offer font-size */
-#price-offer h1 {
+#price-offer h2 {
     font-size: 1000%;
 
 }
@@ -174,8 +174,10 @@ header {
     text-shadow: 3px 3px 3px #252422;
 }
 
-#price-offer h2 {
+#price-offer h3 {
     padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 180%;
 
 }
 
@@ -322,7 +324,7 @@ footer {
 
     color: inherit;
     padding-left: 2%;
-    margin-top: 5px 5px 5px 5px;
+    margin-top: 5px;
     background-color: rgba(255, 252, 242, 0.8);
     color: #403d39;
     border: 2px dashed #252422;
