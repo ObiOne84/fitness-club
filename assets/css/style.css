@@ -480,67 +480,54 @@ footer {
 
 .image-one {
     grid-area: area-one;
-    background-color: greenyellow;
 }
 
 .image-two {
     grid-area: area-two;
-    background-color: green;
 }
 
 .image-three {
     grid-area: area-three;
-    background-color: purple;
 }
 
 .image-four {
     grid-area: area-four;
-    background-color: aqua;
 }
 
 .image-five {
     grid-area: area-five;
-    background-color: white;
 }
 
 .image-six {
     grid-area: area-six;
-    background-color: black;
 }
 
 .image-seven {
     grid-area: area-seven;
-    background-color: red;
 }
 
 .image-eight {
     grid-area: area-eight;
-    background-color: orange;
 }
 
 .image-nine {
     grid-area: area-nine;
-    background-color: yellow;
 }
 
 .image-ten {
     grid-area: area-ten;
-    background-color: white;
 }
 
 .image-eleven {
     grid-area: area-eleven;
-    background-color: beige;
 }
 
 .image-twelve {
     grid-area: area-twelve;
-    background-color: #eb5e28;
 }
 
 .image-thirteen {
     grid-area: area-thirteen;
-    background-color: darkblue;
 }
 
 /* style images to fit the div */
