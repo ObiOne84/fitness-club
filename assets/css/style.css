@@ -450,19 +450,17 @@ footer {
         'area-eleven area-thirteen area-thirteen area-ten area-ten'
         'area-twelve area-thirteen area-thirteen area-ten area-ten';
 
-    background-color: blue;
-    grid-template-columns: 20% auto auto auto 20%;
+    grid-template-columns: repeat(5, 20% [col-start]);
     grid-template-rows: auto;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 1200px;
-
+    overflow: hidden;
+    padding: 1% 0 1% 0;
 }
 
-/* .gallery-container>div {
-    height: 200px;
-} */
+/* added so I need to review */
+.gallery-container>div {
+    overflow: hidden;
+    clear: both;
+}
 
 .image-one {
     grid-area: area-one;
@@ -527,4 +525,19 @@ footer {
 .image-thirteen {
     grid-area: area-thirteen;
     background-color: darkblue;
+}
+
+/* style images to fit the div */
+.gallery-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #fffcf2;
+}
+
+/* style the heading over the gallery */
+
+#gym-gallery>h2 {
+    text-align: center;
+    padding: 2% 0 1% 0;
 }
