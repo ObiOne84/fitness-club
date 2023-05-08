@@ -133,6 +133,8 @@ header {
     display: flex;
     flex-direction: row;
     color: inherit;
+    text-align: justify;
+    font-weight: bold;
 }
 
 #left-about-us {
@@ -189,6 +191,7 @@ th {
     text-shadow: 3px 3px 3px #252422;
 }
 
+/* style additional heading for price offer box */
 #price-offer h3 {
     padding-top: 30px;
     text-transform: uppercase;
