@@ -540,7 +540,8 @@ footer {
 
 /* style the heading over the gallery */
 
-#gym-gallery>h2 {
+#gym-gallery>h2,
+#gym-intro-video>h2 {
     text-align: center;
     padding: 2% 0 1% 0;
 }
