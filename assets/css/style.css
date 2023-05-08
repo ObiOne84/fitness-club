@@ -91,9 +91,11 @@ header {
 
 /* style hero image */
 #hero-image {
-    height: 600px;
+    height: 900px;
     width: 70%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* set postion of the image-holder as relative to  */
