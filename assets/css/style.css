@@ -140,13 +140,27 @@ header {
     margin: 50px;
 }
 
+/* style table open times */
+#open-times {
+    padding: 5% 0 5% 0;
+}
+
+#open-times>table {
+    width: 300px;
+    text-align: left;
+}
+
+th,
+th {
+    padding: 15px;
+}
+
 /* style price-offer with the flex-box css.tricks.com*/
 #right-about-us {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
     width: 50%;
 }
 
@@ -160,15 +174,14 @@ header {
 
 /* increase pirce offer font-size */
 #price-offer h2 {
-    font-size: 1000%;
-
+    font-size: 800%;
 }
 
 /* price-offer a attribute style for active and inactive */
 #price-offer a {
     text-decoration: none;
     color: inherit;
-    text-shadow: 3px 3px #fffcf2;
+    text-shadow: 2px 1px #fffcf2;
 }
 
 #price-offer a:hover {
@@ -180,7 +193,10 @@ header {
     padding-top: 30px;
     text-transform: uppercase;
     font-size: 180%;
+}
 
+#price-offer h4 {
+    font-size: 150%;
 }
 
 /* style classes section */
