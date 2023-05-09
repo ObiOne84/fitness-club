@@ -557,18 +557,33 @@ footer {
 /* media queires */
 
 /* For larger or medium screen size from 1440px wide and down */
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) { */
 
     /* Style about us section */
-    #about-us {
-        width: 100%;
+    /* #about-us {
+        width: 80%;
         height: 800px;
-        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #left-about-us {
+        width: 70%;
+        margin: 10% 0;
+    }
+
+    #right-about-us {
+        width: 30%;
+    }
+
+    #price-offer {
+        width: 70%;
+        height: 50%;
     }
 
     #price-offer h2 {
-        font-size: 500%;
+        font-size: 8vh;
     }
+
 
     #price-offer h3 {
         padding-top: 60px;
@@ -577,11 +592,11 @@ footer {
 
     #price-offer h4 {
         font-size: 150%;
-    }
+    } */
 
     /* Style classes section */
-    #classes {
-        height: 400px;
+    /* #classes {
+        height: 40vh;
     }
 
     #classes h2,
@@ -589,6 +604,6 @@ footer {
         font-size: 1.5vh;
         margin: 0 5% 0 5%;
     }
-}
+} */
 
 /* For larger or medium screen size from 1440px wide and down */
