@@ -558,6 +558,8 @@ footer {
 
 /* For larger or medium screen size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
+
+    /* Style about us section */
     #about-us {
         width: 100%;
         height: 800px;
@@ -576,11 +578,17 @@ footer {
     #price-offer h4 {
         font-size: 150%;
     }
-}
 
-#price-offer h4 {
-    font-size: 120%;
-}
+    /* Style classes section */
+    #classes {
+        height: 400px;
+    }
 
+    #classes h2,
+    #classes h3 {
+        font-size: 1.5vh;
+        margin: 0 5% 0 5%;
+    }
+}
 
 /* For larger or medium screen size from 1440px wide and down */
