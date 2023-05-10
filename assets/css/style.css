@@ -643,7 +643,24 @@ footer {
 
     #logo {
         line-height: 75px;
-
     }
 
+    /* Style hero image and text beside */
+    #hero-image,
+    #box-text {
+        width: 100%;
+        font-size: 130%;
+        height: 30%;
+    }
+
+    #hero-image {
+        height: 70%;
+    }
+
+    #image-holder {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        height: 600px;
+    }
 }
