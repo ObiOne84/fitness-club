@@ -573,7 +573,7 @@ footer {
     /* Style about us section */
     #about-us {
         width: 85%;
-        height: 900px;
+        height: 720px;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -597,7 +597,17 @@ footer {
         width: 100%;
         margin: 0;
         padding: 15px;
+        position: relative;
     }
+
+    #price-offer {
+        height: 280px;
+        width: 280px;
+        position: absolute;
+        right: 36px;
+        bottom: -110px;
+    }
+
 
     /* Add image to classes section for smaller screens */
     #classes {
@@ -679,7 +689,6 @@ footer {
     #price-offer {
         height: 180px;
         width: 180px;
-        position: absolute;
         right: 4%;
         bottom: -10px;
     }
@@ -697,7 +706,4 @@ footer {
         font-size: 110%;
     }
 
-    #right-about-us {
-        position: relative;
-    }
 }
