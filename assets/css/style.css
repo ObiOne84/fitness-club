@@ -644,13 +644,15 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 50px;
+        margin-left: 25px;
         line-height: 75px;
         font-size: 100%;
     }
 
     #logo {
         line-height: 75px;
+        font-size: 240%;
+        margin-left: 25px;
     }
 
     /* Style hero image and text beside */
