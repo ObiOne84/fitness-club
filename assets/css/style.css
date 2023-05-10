@@ -673,4 +673,31 @@ footer {
         margin: 0 auto;
         height: 600px;
     }
+
+    /*  Style about us  */
+
+    #price-offer {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        right: 4%;
+        bottom: -10px;
+    }
+
+    #price-offer h3 {
+        padding-top: 15px;
+        font-size: 120%;
+    }
+
+    #price-offer h2 {
+        font-size: 500%;
+    }
+
+    #price-offer h4 {
+        font-size: 110%;
+    }
+
+    #right-about-us {
+        position: relative;
+    }
 }
