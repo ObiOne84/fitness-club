@@ -226,7 +226,7 @@ th {
 
     /* Add overlay on the photos */
     background-blend-mode: multiply;
-    background-color: rgba(72, 72, 72, 0.9);
+    background-color: rgba(72, 72, 72, 0.8);
 
     text-align: center;
     margin: 1%;
@@ -610,5 +610,17 @@ footer {
         padding-top: 10px;
         font-size: 1rem;
     }
-    
+
+    /* Remove current images from classes */
+    #running,
+    #bodyweight,
+    #weights,
+    #boxing,
+    #yoga {
+        background-image: none;
+        border: 10px solid #fffcf2;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
 }
