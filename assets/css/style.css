@@ -106,8 +106,6 @@ header {
 /* style box-text beside hero-image with flex-box to center the text */
 #box-text {
     display: flex;
-    align-items: center;
-    /*horizontal centering*/
     justify-content: center;
     /*vertical centering*/
     flex-direction: column;
@@ -117,6 +115,7 @@ header {
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
+    text-align: center;
     line-height: 2;
 
     width: 30%;
