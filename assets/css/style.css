@@ -141,17 +141,17 @@ header {
 }
 
 #left-about-us {
-    width: 50%;
+    width: 70%;
     margin: 50px;
 }
 
 /* style table open times */
 #open-times {
-    padding: 5% 0 5% 0;
+    padding: 2% 0 2% 0;
 }
 
 #open-times>table {
-    width: 300px;
+    width: 320px;
     text-align: left;
 }
 
@@ -166,7 +166,7 @@ th {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 30%;
 }
 
 /* style text box */
@@ -211,7 +211,7 @@ th {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    height: 40vw;
+    height: 30vw;
 }
 
 .class-offer {
