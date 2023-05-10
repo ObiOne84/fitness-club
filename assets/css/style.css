@@ -566,3 +566,26 @@ footer {
         flex-direction: column;
         margin: 0 auto;
     }
+
+    /* center left-about-us div */
+    #left-about-us {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Add space between heading and hero image */
+    #left-about-us>h2 {
+        padding-top: 15px;
+    }
+
+    /* Align right-about-us div and change style */
+    #right-about-us {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+}
