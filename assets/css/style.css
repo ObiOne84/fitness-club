@@ -150,14 +150,22 @@ header {
     padding: 2% 0 2% 0;
 }
 
+#table-title,
+#open-times .table-center {
+    font-size: 120%;
+    border-bottom: 2px solid #252422;
+    font-weight: 700;
+}
+
 #open-times>table {
     width: 320px;
     text-align: left;
+    border-collapse: collapse;
 }
 
 th,
-th {
-    padding: 15px;
+td {
+    padding: 5px;
 }
 
 /* style price-offer with the flex-box css.tricks.com*/
