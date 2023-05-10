@@ -172,9 +172,10 @@ th {
 /* style text box */
 #price-offer {
     background-color: rgba(235, 94, 40, 0.9);
-    height: 300px;
-    width: 50%;
+    height: 280px;
+    width: 280px;
     text-align: center;
+    margin: auto 0;
 }
 
 /* increase pirce offer font-size */
