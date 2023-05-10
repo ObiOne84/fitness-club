@@ -627,3 +627,23 @@ footer {
         margin: 0;
     }
 }
+
+/*  Query for medium screen size from 900px wide and below */
+
+@media screen and (max-width: 900px) {
+
+    /* style header for screen 900px or below */
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 50px;
+        line-height: 75px;
+        font-size: 100%;
+    }
+
+    #logo {
+        line-height: 75px;
+
+    }
+
+}
