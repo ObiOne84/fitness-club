@@ -588,4 +588,27 @@ footer {
         padding: 15px;
     }
 
+    /* Add image to classes section for smaller screens */
+    #classes {
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+        background-image: url('../images/man-boxing.webp');
+        background-size: cover;
+        overflow: hidden;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    /* Add size to class-offer divs to fit new layout */
+    .class-offer {
+        width: 100%;
+    }
+
+    .class-offer h2,
+    .class-offer h3 {
+        padding-top: 10px;
+        font-size: 1rem;
+    }
+    
 }
