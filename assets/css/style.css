@@ -572,7 +572,7 @@ footer {
 
     /* Style about us section */
     #about-us {
-        width: 65%;
+        width: 85%;
         height: 900px;
         flex-direction: column;
         margin: 0 auto;
@@ -607,7 +607,7 @@ footer {
         background-image: url('../images/man-boxing.webp');
         background-size: cover;
         overflow: hidden;
-        width: 65%;
+        width: 80%;
         margin: 0 auto;
     }
 
