@@ -91,7 +91,7 @@ header {
 
 /* style hero image */
 #hero-image {
-    height: 900px;
+    height: 100%;
     width: 70%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
@@ -100,7 +100,10 @@ header {
 
 /* set postion of the image-holder as relative to  */
 #image-holder {
-    position: relative;
+    /* position: relative; */
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
 }
 
 /* style box-text beside hero-image with flex-box to center the text */
@@ -122,9 +125,9 @@ header {
     height: 100%;
 
     /* set text box beside hero-image with absolute postion */
-    right: 0;
+    /* right: 0;
     bottom: 0;
-    position: absolute;
+    position: absolute; */
 }
 
 /* style about us section with the flex-box */
