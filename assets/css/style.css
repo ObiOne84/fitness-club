@@ -425,32 +425,31 @@ footer {
     height: 100%;
 }
 
-/* style contact-info conainer */
-#contact-info {
+/* style gym-details and i-frame */
+#gym-details,
+#location-map>iframe {
     background-color: rgba(64, 61, 57, 0.6);
     text-align: left;
-
-}
-
-/* set iframe dimensions */
-#location-map>iframe {
-    width: 100%;
-    height: inherit;
+    height: 96%;
+    width: 90%;
+    margin-left: 5%;
+    border: 2px dashed #252422;
+    border-radius: 5px;
+    color: #fffcf2;
+    letter-spacing: 3px;
+    font-size: 120%;
 }
 
 /* style h2 and h3 elements */
-#contact-info>h2,
-#contact-info>h3 {
-    color: #fffcf2;
-    font-size: 200%;
-    margin-left: 50px;
-    letter-spacing: 3px;
+#contact-info h2,
+#contact-info h3 {
+    margin-left: 75px;
 }
 
 /* add some space from the top of the div */
-#contact-info>h2 {
-    font-size: 300%;
-    padding-top: 10%;
+#gym-details>h2 {
+    font-size: 180%;
+    padding-top: 15%;
     text-transform: capitalize;
 }
 
