@@ -323,7 +323,7 @@ footer {
 }
 
 /* position form on the page with absolute */
-.join-form {
+/* .join-form {
     margin: 5% 5% 0 0;
     color: #fffcf2;
     text-shadow: 1px 1px #252422;
@@ -334,12 +334,24 @@ footer {
     padding: 40px;
     border: 2px dashed #252422;
     border-radius: 1%;
+} */
+.join-form {
+    margin-top: 8vw;
+    color: #fffcf2;
+    text-shadow: 1px 1px #252422;
+    background-color: rgba(235, 94, 40, 0.8);
+    max-width: 350px;
+    position: absolute;
+    left: 40vw;
+    padding: 30px;
+    border: 2px dashed #252422;
+    border-radius: 2px;
 }
 
 /* style h2 element of the form */
 .join-form>h2 {
     margin: 2% 0 5% 0;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 /* style text input boxes */
@@ -373,7 +385,7 @@ footer {
 /* display form element as block elements */
 .join-form label,
 .text-input {
-    font-size: 130%;
+    font-size: 120%;
     display: block;
 }
 
