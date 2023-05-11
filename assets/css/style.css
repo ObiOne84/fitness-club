@@ -745,4 +745,33 @@ footer {
         font-size: 110%;
         height: 20%;
     }
+
+    /* Style about-us section */
+    #about-us {
+        height: 850px;
+        width: 90%;
+    }
+
+    #price-offer {
+        width: 90%;
+        right: 2.5%;
+        bottom: -140px;
+        margin: 5%;
+        padding: 0;
+    }
+
+    /* Add style to table */
+    #table-title,
+    .table-center {
+        font-size: 100%;
+    }
+
+    #open-times>table {
+        width: 100%;
+    }
+
+    /* Style classes section */
+    #classes {
+        width: 100%;
+    }
 }
