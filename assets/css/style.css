@@ -823,17 +823,22 @@ footer {
     /* Style singup section */
 
     #signup-section {
-        height: 800px;
+        height: 500px;
     }
 
     .join-form {
-        max-width: 260px;
+        max-width: 75%;
         padding: 20px;
+        margin: 150px auto 0 auto;
     }
 
     .join-form label,
     .text-input {
         font-size: 100%;
+    }
+
+    .text-input {
+        width: 95%;
     }
 
     .join-form label,
@@ -850,6 +855,7 @@ footer {
 
     #contact-and-location {
         width: 90%;
+        height: 1000px;
     }
 
     #contact-info h3 {
@@ -859,6 +865,7 @@ footer {
 
     #gym-details>h2 {
         font-size: 115%;
+        padding-top: 110px;
     }
 }
 
