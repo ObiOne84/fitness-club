@@ -735,4 +735,14 @@ footer {
         height: 40px;
         width: 80px;
     }
+
+    /* Style hero image section */
+    #hero-image {
+        height: 80%;
+    }
+
+    #box-text {
+        font-size: 110%;
+        height: 20%;
+    }
 }
