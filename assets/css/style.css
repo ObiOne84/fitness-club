@@ -714,3 +714,15 @@ footer {
     }
 
 }
+
+/*  Query for medium screen size from 550px wide and below */
+
+@media screen and (max-width: 550px) {
+
+    /*  Style header  */
+    #logo {
+        line-height: 50px;
+        font-size: 180%;
+        margin-left: 15px;
+    }
+}
