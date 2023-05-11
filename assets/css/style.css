@@ -311,7 +311,7 @@ footer {
 /* join page insert background-image */
 #background-image {
     background-image: url(../images/girl-inside-gym.webp);
-    height: 1500px;
+    height: 100%;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -319,33 +319,19 @@ footer {
 
 /* style signup-form */
 #signup-section {
-    height: 900px;
+    height: 60%;
 }
 
-/* position form on the page with absolute */
-/* .join-form {
-    margin: 5% 5% 0 0;
-    color: #fffcf2;
-    text-shadow: 1px 1px #252422;
-    background-color: rgba(235, 94, 40, 0.8);
-    max-width: 400px;
-    position: absolute;
-    left: 30%;
-    padding: 40px;
-    border: 2px dashed #252422;
-    border-radius: 1%;
-} */
+/* position form in the middle of the section, set top, bottom margin */
 .join-form {
-    margin-top: 150px;
     color: #fffcf2;
     text-shadow: 1px 1px #252422;
     background-color: rgba(235, 94, 40, 0.8);
     max-width: 350px;
-    position: absolute;
-    left: 30%;
     padding: 30px;
     border: 2px dashed #252422;
     border-radius: 2px;
+    margin: 300px auto 150px auto;
 }
 
 /* style h2 element of the form */
@@ -426,7 +412,7 @@ footer {
     /* flex-wrap: wrap; */
     justify-content: center;
     /* align-items: flex-end; */
-    height: 600px;
+    height: 40%;
 }
 
 /* add size to contact and location divs */
