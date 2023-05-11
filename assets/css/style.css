@@ -577,7 +577,7 @@ footer {
 
 /* media queires */
 
-/* For larger or medium screen size from 1440px wide and down */
+/* For larger or medium screen size from 1080px wide and down */
 @media screen and (max-width: 1080px) {
 
     /* Style about us section */
@@ -653,6 +653,17 @@ footer {
         padding: 0;
         box-sizing: border-box;
         margin: 0;
+    }
+
+    /* Style join page - contact details */
+    #contact-info h2,
+    #contact-info h3 {
+        margin-left: 40px;
+        font-size: 100%;
+    }
+
+    #gym-details>h2 {
+        font-size: 130%;
     }
 }
 
