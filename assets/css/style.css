@@ -423,9 +423,9 @@ footer {
 #contact-and-location {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     height: 600px;
 }
 
@@ -734,6 +734,42 @@ footer {
     #price-offer h4 {
         font-size: 100%;
     }
+
+    /* Style join page */
+    #background-image {
+        height: 100%;
+    }
+
+    #contact-and-location {
+        height: 800px;
+        width: 85%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #contact-info,
+    #location-map {
+        width: 100%;
+        height: 50%;
+    }
+
+    #gym-details>h2 {
+        padding-top: 75px;
+    }
+
+    #gym-details {
+        text-align: center;
+    }
+
+    #contact-info h2,
+    #contact-info h3 {
+        margin: 0;
+    }
+
+    /* #gym-details,
+    #location-map>iframe {
+        margin: 0 auto;
+    } */
 
 }
 
