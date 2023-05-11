@@ -721,8 +721,18 @@ footer {
 
     /*  Style header  */
     #logo {
-        line-height: 50px;
         font-size: 180%;
         margin-left: 15px;
+    }
+
+    /* Style navigation menu */
+    #menu {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    #menu button {
+        height: 40px;
+        width: 80px;
     }
 }
