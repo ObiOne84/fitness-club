@@ -151,10 +151,9 @@ header {
 }
 
 #table-title,
-#open-times .table-center {
+.table-center {
     font-size: 120%;
     border-bottom: 2px solid #252422;
-    font-weight: 700;
 }
 
 #open-times>table {
@@ -684,26 +683,34 @@ footer {
         height: 600px;
     }
 
-    /*  Style about us  */
+    /*  Style about us section */
+    #about-us {
+        height: 600px;
+    }
 
+    #left-about-us h3 {
+        font-size: 16px;
+    }
+
+    /* Style price-offer box */
     #price-offer {
-        height: 180px;
-        width: 180px;
-        right: 4%;
-        bottom: -10px;
+        height: 130px;
+        width: 130px;
+        right: 5%;
+        bottom: 40px;
     }
 
     #price-offer h3 {
-        padding-top: 15px;
-        font-size: 120%;
+        padding-top: 7px;
+        font-size: 100%;
     }
 
     #price-offer h2 {
-        font-size: 500%;
+        font-size: 350%;
     }
 
     #price-offer h4 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
 }
