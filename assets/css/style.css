@@ -336,13 +336,13 @@ footer {
     border-radius: 1%;
 } */
 .join-form {
-    margin-top: 8vw;
+    margin-top: 150px;
     color: #fffcf2;
     text-shadow: 1px 1px #252422;
     background-color: rgba(235, 94, 40, 0.8);
     max-width: 350px;
     position: absolute;
-    left: 40vw;
+    left: 30%;
     padding: 30px;
     border: 2px dashed #252422;
     border-radius: 2px;
@@ -358,14 +358,13 @@ footer {
 .text-input {
     height: 40px;
     width: 100%;
-
     color: inherit;
     padding-left: 2%;
     margin-top: 5px;
     background-color: rgba(255, 252, 242, 0.8);
     color: #403d39;
     border: 2px dashed #252422;
-    border-radius: 1%;
+    border-radius: 2px;
 }
 
 /* style text box when in use (in focus) */
@@ -456,12 +455,13 @@ footer {
 #contact-info h2,
 #contact-info h3 {
     margin-left: 75px;
+    padding: 5px;
 }
 
 /* add some space from the top of the div */
 #gym-details>h2 {
     font-size: 180%;
-    padding-top: 15%;
+    padding-top: 150px;
     text-transform: capitalize;
 }
 
