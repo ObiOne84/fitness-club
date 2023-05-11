@@ -39,7 +39,7 @@ h3 {
     float: right;
     /* remove style from the list */
     list-style-type: none;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 /* style navigation buttons*/
@@ -52,7 +52,7 @@ button {
     background-color: #252422;
     height: 50px;
     width: 100px;
-    border-radius: 20%;
+    border-radius: 15px;
 }
 
 #menu button:hover,
@@ -319,7 +319,7 @@ footer {
 
 /* style signup-form */
 #signup-section {
-    height: 60%;
+    height: 900px;
 }
 
 /* position form in the middle of the section, set top, bottom margin */
@@ -331,7 +331,7 @@ footer {
     padding: 30px;
     border: 2px dashed #252422;
     border-radius: 2px;
-    margin: 300px auto 150px auto;
+    margin: 300px auto 0 auto;
 }
 
 /* style h2 element of the form */
@@ -410,7 +410,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 40%;
+    height: 600px;
 }
 
 /* add size to contact and location divs */
