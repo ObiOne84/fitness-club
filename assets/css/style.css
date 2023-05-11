@@ -822,6 +822,32 @@ footer {
 
     /* Style singup section */
 
+    #signup-section {
+        height: 800px;
+    }
+
+    .join-form {
+        max-width: 260px;
+        padding: 20px;
+    }
+
+    .join-form label,
+    .text-input {
+        font-size: 100%;
+    }
+
+    .join-form label,
+    .singup-button {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .join-form>h2 {
+        margin: 2% 0 3% 0;
+        font-size: 100%;
+    }
+
+
     #contact-and-location {
         width: 90%;
     }
