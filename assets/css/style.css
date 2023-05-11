@@ -776,9 +776,9 @@ footer {
     }
 }
 
-/*  Query for medium screen size from 550px wide and below */
-
+/*  Query for medium screen size from 405px wide and below */
 @media screen and (max-width: 405px) {
+
     /*  Style about us for scree 405px or below */
     #about-us {
         height: 950px;
@@ -786,5 +786,15 @@ footer {
 
     #price-offer {
         bottom: -150px;
+    }
+}
+
+/*  Query for medium screen size from 345px wide and below */
+
+@media screen and (max-width: 345px) {
+
+    /*  Style about us for scree 345px or below */
+    #about-us {
+        height: 975px;
     }
 }
