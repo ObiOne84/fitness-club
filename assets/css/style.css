@@ -409,9 +409,7 @@ footer {
 #contact-and-location {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    /* align-items: flex-end; */
     height: 40%;
 }
 
@@ -604,7 +602,6 @@ footer {
         bottom: -110px;
     }
 
-
     /* Add image to classes section for smaller screens */
     #classes {
         flex-direction: column;
@@ -751,12 +748,6 @@ footer {
     #contact-info h3 {
         margin: 0;
     }
-
-    /* #gym-details,
-    #location-map>iframe {
-        margin: 0 auto;
-    } */
-
 }
 
 /*  Query for medium screen size from 550px wide and below */
