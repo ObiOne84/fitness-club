@@ -771,6 +771,12 @@ footer {
     #contact-info h3 {
         margin: 0;
     }
+
+    /* Style gallery  */
+    #gym-intro-video video {
+        width: 70%;
+    }
+
 }
 
 /*  Query for medium screen size from 550px wide and below */
