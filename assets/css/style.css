@@ -648,6 +648,24 @@ footer {
     #gym-details>h2 {
         font-size: 130%;
     }
+
+    /* Style gallery */
+    .gallery-container {
+        display: grid;
+        grid:
+            'area-one  area-four area-four'
+            'area-one area-four area-four'
+            'area-seven area-seven area-eight'
+            'area-seven area-seven area-nine'
+            'area-eleven area-thirteen area-thirteen'
+            'area-twelve area-thirteen area-thirteen'
+            'area-ten area-ten area-two'
+            'area-ten area-ten area-three'
+            'area-ten area-ten area-five'
+            'area-ten area-ten area-six';
+
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /*  Query for medium screen size from 900px wide and below */
