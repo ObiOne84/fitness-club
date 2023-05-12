@@ -664,6 +664,8 @@ footer {
             'area-ten area-ten area-six';
 
         grid-template-columns: repeat(3, 1fr);
+        width: 98%;
+        margin: 0 auto;
     }
 }
 
@@ -908,8 +910,6 @@ footer {
             'area-thirteen area-thirteen';
 
         grid-template-columns: repeat(2, 1fr);
-        width: 90%;
-        margin: 0 auto;
     }
 
     #gym-gallery>h2,
