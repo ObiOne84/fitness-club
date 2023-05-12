@@ -651,7 +651,6 @@ footer {
 
     /* Style gallery */
     .gallery-container {
-        display: grid;
         grid:
             'area-one  area-four area-four'
             'area-one area-four area-four'
@@ -891,6 +890,34 @@ footer {
         font-size: 115%;
         padding-top: 110px;
     }
+
+    /* Add gallery style */
+    .gallery-container {
+        grid:
+            'area-one  area-two'
+            'area-one area-three'
+            'area-four area-four'
+            'area-four area-four'
+            'area-eleven area-eight'
+            'area-twelve area-nine'
+            'area-seven area-seven'
+            'area-seven area-seven'
+            'area-ten area-five'
+            'area-ten area-six'
+            'area-thirteen area-thirteen'
+            'area-thirteen area-thirteen';
+
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #gym-gallery>h2,
+    #gym-intro-video>h2 {
+        padding: 15px 0 15px 0;
+        font-size: 110%;
+    }
+
 }
 
 /*  Query for medium screen size from 405px wide and below */
