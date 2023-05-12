@@ -471,10 +471,12 @@ footer {
         'area-eleven area-thirteen area-thirteen area-ten area-ten'
         'area-twelve area-thirteen area-thirteen area-ten area-ten';
 
-    grid-template-columns: repeat(5, 20% [col-start]);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     overflow: hidden;
-    padding: 1% 0 1% 0;
+    /* padding: 0; */
+    margin: 0 auto;
+    width: 99%;
 }
 
 /* added so I need to review */
@@ -548,7 +550,8 @@ footer {
 #gym-gallery>h2,
 #gym-intro-video>h2 {
     text-align: center;
-    padding: 2% 0 1% 0;
+    padding: 50px 0 50px 0;
+    font-size: 150%;
 }
 
 /* style video section */
