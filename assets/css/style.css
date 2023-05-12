@@ -480,10 +480,10 @@ footer {
 }
 
 /* added so I need to review */
-.gallery-container>div {
+/* .gallery-container>div {
     overflow: hidden;
     clear: both;
-}
+} */
 
 .image-one {
     grid-area: area-one;
@@ -788,20 +788,36 @@ footer {
 @media screen and (max-width: 550px) {
 
     /*  Style header  */
+    header {
+        height: 100px;
+    }
+
     #logo {
         font-size: 180%;
         margin-left: 15px;
+        line-height: 50px;
     }
 
     /* Style navigation menu */
     #menu {
         margin-left: 15px;
         font-size: 14px;
+        line-height: 50px;
     }
 
     #menu button {
-        height: 40px;
-        width: 80px;
+        height: 39px;
+        width: 78px;
+    }
+
+    /* Style footer */
+    footer {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .social-media i {
+        font-size: 140%;
     }
 
     /* Style hero image section */
