@@ -592,7 +592,10 @@ footer {
     padding: 15px 0;
 }
 
-#thank-you-note i {
+/* #thank-you-note i {
+    font-size: 300%;
+} */
+.submitted-ok {
     font-size: 300%;
 }
 
