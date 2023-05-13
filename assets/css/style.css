@@ -722,6 +722,17 @@ footer {
         width: 98%;
         margin: 0 auto;
     }
+
+    /* Add style to submit page */
+    #thank-you-note {
+        font-size: 120%;
+        width: 80%;
+        left: 10%;
+    }
+
+    #thank-you-note h2 {
+        letter-spacing: 3px;
+    }
 }
 
 /*  Query for medium screen size from 900px wide and below */
@@ -987,6 +998,24 @@ footer {
         padding: 15px 0 15px 0;
         font-size: 110%;
     }
+
+    /* Add style to submit page */
+    /* #thank-you-note h2 {
+        margin-top: 150px;
+        padding: 10px;
+        letter-spacing: 2px;
+    }
+
+    #thank-you-note {
+        font-size: 100%;
+        width: 90%;
+        left: 5%;
+        height: 600px;
+    }
+
+    #thank-you-note h3 {
+        padding: 10px;
+    } */
 
 }
 
