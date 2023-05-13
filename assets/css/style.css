@@ -325,7 +325,7 @@ footer {
 /* position form in the middle of the section, set top, bottom margin */
 .join-form {
     color: #fffcf2;
-    text-shadow: 1px 1px #252422;
+    text-shadow: 2px 1px #252422;
     background-color: rgba(235, 94, 40, 0.8);
     max-width: 350px;
     padding: 30px;
@@ -560,6 +560,55 @@ footer {
     height: 50%;
     display: block;
     margin: 0 auto;
+}
+
+/* Style thank you page */
+#thank-you-page {
+    height: 1500px;
+    position: relative;
+}
+
+#thank-you-note {
+    width: 75%;
+    height: 450px;
+    background-color: rgba(235, 94, 40, 0.8);
+    color: #fffcf2;
+    font-size: 150%;
+    position: absolute;
+    left: 12.5%;
+    top: 25%;
+    text-align: center;
+    text-shadow: 2px 1px #252422;
+    border: 2px dashed #252422;
+    border-radius: 15px;
+    align-items: center;
+}
+
+#thank-you-note h2 {
+    margin-top: 90px;
+}
+
+#thank-you-note h3 {
+    padding: 15px 0;
+}
+
+#thank-you-note i {
+    font-size: 300%;
+}
+
+#thank-you-note a {
+    color: #fffcf2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#thank-you-note a:hover {
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#thank-you-note h3 {
+    padding: 15px 0;
 }
 
 /* media queires */
