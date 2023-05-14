@@ -246,6 +246,17 @@ td {
     padding-top: 15%;
     color: #fffcf2;
     font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+
+/* Align text in all divs */
+#weights>h2 {
+    margin-top: 10%;
+}
+
+#bodyweight>h2,
+#boxing>h2 {
+    margin-top: 5%;
 }
 
 .class-offer h3 {
@@ -658,6 +669,12 @@ footer {
     }
 
     /* Add image to classes section for smaller screens */
+    #weights>h2,
+    #bodyweight>h2,
+    #boxing>h2 {
+        margin-top: 0;
+    }
+
     #classes {
         flex-direction: column;
         justify-content: center;
