@@ -10,13 +10,11 @@ https://obione84.github.io/fitness-club/index.html
 ---
 ![Screenshot of a page responsivness test](/assets/screenshots/responsive-test.jpg)
 
-## Features ##
-
----
+## Features #
 
 >- ### **Navigation Bar** ###
 >
->   - Featured at the top of the page, for all three pages, and thank you page. The navigation bar is fully responsive and includes Logo, Home page, Gallery, and Join page. The navigation repeats on each page to provide easy navigation for the users.
+>   - Featured at the top of the page, for all three pages, and Thank You page. The navigation bar is fully responsive and includes Logo, Home page, Gallery, and Join page. The navigation repeats on each page to provide easy navigation for the users.
 >   - The logo and navigation buttons change colour to coral on the hover.
 > ![Hover over navigation button](/assets/screenshots/hover-navigation.jpg)
 >   - The reversed colour of the button, with a grey shadow, indicates an active page for the user.
@@ -29,9 +27,12 @@ https://obione84.github.io/fitness-club/index.html
 > - ### **The Landing Page Image** ###
 >
 >   - The landing page image section reintroduces the Fitness Club name and encourages users to join the club to stay fit and healthy.
->   - This section contains photographs of a person training inside the gym, allowing users to take the first look into the gym and clearly understand the website's purpose and target audience. The focus is on people who want to stay fit and healthy and looking for a fitness club.![Landing page image](/assets/screenshots/hero-image.jpg)
->   - For devices with screens 550px and below, the main photograph changes.
+>   - For devices with screens 550px and below, the main photograph changes.  
 > ![Landing page image for mobile devices](/assets/screenshots/hero-image-mobile.jpg)
+>   - This section contains photographs of a person training inside the gym, allowing users to take the first look into the gym and clearly understand the website's purpose and target audience. The focus is on people who want to stay fit and healthy and looking for a fitness club.
+>
+> ![Landing page image](/assets/screenshots/hero-image.jpg)
+>
 ---
 
 > - ### **The About Us Section** ###
@@ -40,9 +41,26 @@ https://obione84.github.io/fitness-club/index.html
 >   - This section introduces the benefits of physical activity to the user and outlines coaching approaches for gym members. Also, this section briefly explains club offers, available equipment and supervised class.
 >   - The About Us section includes a price offer and calls for action 'Join Now!'.
 >   - Also, on hover, the font colour in the price offer box is reversed from black with white to white with black shade. Once clicked, it brings the user to the Join page.
+>
 > ![Screenshot of about us section](/assets/screenshots/about-us-section.jpg)
+>
 ---
 
 > - ### **The Classes Section** ###
 >
-> 
+>   - This section provides information to the users about the types of classes offered by Fitness Club, the days on which classes take place, starting and finishing times for each class and the name of the coach conducting the class. 
+> - This section will be updated if any of the information provided changes to ensure users are kept up to date.
+>
+> ![Screenshot of classes section](/assets/screenshots/classes-section.jpg)
+>
+---
+
+> - ### **The Footer** ###
+>
+>   - The footer section includes link to social media sites for Fitness Club. The links will open in a new tab and encourage user to connect with the club via social media.
+>
+> ![Screenshot of the footer](/assets/screenshots/footer-image.jpg)
+>
+---
+
+
