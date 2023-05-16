@@ -5,7 +5,7 @@ The Fitness Club is a landing page for people interested in physical activity an
 Users of this website can find information about the Fitness Club, membership price, and timetable for particular classes. Furthermore, the gallery page allows users to peek into the gym. Lastly, the users can send requests directly to sign up for gym membership on the Join page by filling out the form. Alternatively, the Join page will provide the Fitness Club address and location for the users who wish to visit the club in person. Lastly, users can contact Fitness Club by email by following the link in the Contact Us section.
 
 Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live page or follow the linke below:  
-https://obione84.github.io/fitness-club/index.html
+<https://obione84.github.io/fitness-club/index.html>
 
 ---
 ![Screenshot of a page responsivness test](/assets/screenshots/responsive-test.jpg)
@@ -48,7 +48,7 @@ https://obione84.github.io/fitness-club/index.html
 
 > - ### **The Classes Section** ###
 >
->   - This section provides information to the users about the types of classes offered by Fitness Club, the days on which classes take place, starting and finishing times for each class and the name of the coach conducting the class. 
+>   - This section provides information to the users about the types of classes offered by Fitness Club, the days on which classes take place, starting and finishing times for each class and the name of the coach conducting the class.
 > - This section will be updated if any of the information provided changes to ensure users are kept up to date.
 >
 > ![Screenshot of classes section](/assets/screenshots/classes-section.jpg)
@@ -63,4 +63,7 @@ https://obione84.github.io/fitness-club/index.html
 >
 ---
 
-
+> - ### **The Gallery** ###
+>
+>   - The user will be able to watch short intro video when visiting the gallery, and review supporting images to see how the gym looks like and understand the environment of offered classes.
+>   - This page is valuable to the users as it allows to view some of the gym equipment, offered classes and provides visual ques to class exercises.
