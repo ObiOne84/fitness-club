@@ -13,7 +13,7 @@ https://obione84.github.io/fitness-club/index.html
 
 ---
 
->- ### Navigation Bar ###
+>- ### **Navigation Bar** ###
 >
 >   - Featured at the top of the page, for all three pages, and thank you page. The navigation bar is fully responsive and includes Logo, Home page, Gallery, and Join page. The navigation repeats on each page to provide easy navigation for the users.
 >   - The logo and navigation buttons change colour to coral on the hover.
@@ -21,4 +21,13 @@ https://obione84.github.io/fitness-club/index.html
 >   - The reversed colour of the button, with a grey shadow, indicates an active page for the user.
 >   -	Onclick, the button shifts down and changes the background colour to active, informing users about a successful click before directing the user to the chosen page.
 >   - The navigation section will allow users to easily navigate between the pages across various devices without using the back button.  
+>
 > ![Navigation menu bar](/assets/screenshots/navigation-menu-bar.jpg)  
+---
+> - ### **The Landing Page Image** ###
+>
+>   - The landing page image section reintroduces the Fitness Club name and encourages users to join the club to stay fit and healthy.
+>   - This section contains photographs of a person training inside the gym, allowing users to take the first look into the gym and clearly understand the website's purpose and target audience. The focus is on people who want to stay fit and healthy and looking for a fitness club.![Landing page image](/assets/screenshots/hero-image.jpg)
+>   - For devices with screens 550px and below, the main photograph changes.
+> ![Landing page image for mobile devices](/assets/screenshots/hero-image-mobile.jpg)
+---
