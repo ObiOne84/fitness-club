@@ -93,7 +93,7 @@ header {
 #hero-image {
     height: 100%;
     width: 70%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -272,7 +272,7 @@ td {
 }
 
 #bodyweight {
-    background-image: url(../images/body-weight-training.jpeg);
+    background-image: url('../images/body-weight-training.webp');
     height: 85%;
 }
 
@@ -282,12 +282,12 @@ td {
 }
 
 #boxing {
-    background-image: url('../images/boxing-training.jpeg');
+    background-image: url('../images/boxing-training.webp');
     height: 85%;
 }
 
 #yoga {
-    background-image: url('../images/yoga-training.jpeg');
+    background-image: url('../images/yoga-training.webp');
     height: 80%;
 }
 
