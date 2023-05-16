@@ -72,4 +72,16 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >
 ---
 
+> - ### **The Join Page** ###
+>
+>   - This page will allow user to sign up for gym membership. The user will be asked to provide their full name, date of birth, and email address. All fields are required, and use will have to provide all details in order to submit the survey.
+>   - Also, this page will allow user to contact store directly in person, by providing contact details below the sign up form together with Google maps location.
+>   - Alternatively, this page will allow user to email Fitness Club directly, after clicking to email box address in contact details, which will open user mailbox.
+>
+> ![Join page screenshot](/assets/screenshots/join-page-screenshot.jpg)
+>
+---
 
+> - ### **Thank You Page** ###
+>
+> 
