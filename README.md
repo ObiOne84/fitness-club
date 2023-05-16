@@ -67,3 +67,9 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >
 >   - The user will be able to watch short intro video when visiting the gallery, and review supporting images to see how the gym looks like and understand the environment of offered classes.
 >   - This page is valuable to the users as it allows to view some of the gym equipment, offered classes and provides visual ques to class exercises.
+>
+>![Gallery page screenshot](/assets/screenshots/gallery-screenshot.jpg)
+>
+---
+
+
