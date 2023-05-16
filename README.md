@@ -1,4 +1,4 @@
-# Ftiness Club #
+# Fitness Club #
 
 The Fitness Club is a landing page for people interested in physical activity and seeking gym membership with access to additional classes. The Fitness Club, besides gym membership, offers access to coached running, bodyweight, free-weights, boxing, and yoga classes.
 
@@ -84,4 +84,10 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 
 > - ### **Thank You Page** ###
 >
-> 
+>   - Thank you page will be displayed to user on successful submission of the sign up form. The use will benefit from this page, by received direct response confirming submission of the form.
+>   - The thank you massage includes the direct link to the home page.
+>
+> ![Thank you page screenshot](/assets/screenshots/thankyou-page-screenshot.jpg)
+>
+---
+
