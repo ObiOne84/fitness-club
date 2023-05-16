@@ -37,13 +37,11 @@ h3 {
 /* style menu */
 #menu li {
     float: right;
-    /* remove style from the list */
     list-style-type: none;
     padding-right: 15px;
 }
 
 /* style navigation buttons*/
-
 button {
     font-family: Cantarell, Montserrat, sans-serif;
     font-weight: 400;
@@ -64,9 +62,7 @@ button {
 #menu button:active {
     color: #252422;
     background-color: #fffcf2;
-    /* add shadow horizontal, vertical and color w3schools */
     box-shadow: 4px 4px rgb(73, 72, 72);
-    /* move button down 10px */
     transform: translateY(10px);
 }
 
@@ -100,7 +96,6 @@ header {
 
 /* set postion of the image-holder as relative to  */
 #image-holder {
-    /* position: relative; */
     height: 50vw;
     display: flex;
     flex-direction: row;
@@ -110,9 +105,7 @@ header {
 #box-text {
     display: flex;
     justify-content: center;
-    /*vertical centering*/
     flex-direction: column;
-    /*keep the h2 above h3*/
     color: inherit;
     font-size: 150%;
     font-family: "Fjalla One", sans-serif;
@@ -120,14 +113,8 @@ header {
     text-transform: uppercase;
     text-align: center;
     line-height: 2;
-
     width: 30%;
     height: 100%;
-
-    /* set text box beside hero-image with absolute postion */
-    /* right: 0;
-    bottom: 0;
-    position: absolute; */
 }
 
 /* style about us section with the flex-box */
@@ -224,20 +211,13 @@ td {
 
 .class-offer {
     width: 20%;
-
-    /* border: 1px solid #fffcf2; */
     background-size: cover;
     background-position: center;
     overflow: hidden;
     width: 19%;
-
-    /* style background image to black & white */
     filter: grayscale(100%);
-
-    /* Add overlay on the photos */
     background-blend-mode: multiply;
     background-color: rgba(72, 72, 72, 0.8);
-
     text-align: center;
     margin: 1%;
 }
@@ -333,7 +313,6 @@ footer {
     height: 900px;
 }
 
-/* position form in the middle of the section, set top, bottom margin */
 .join-form {
     color: #fffcf2;
     text-shadow: 2px 1px #252422;
@@ -485,16 +464,9 @@ footer {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     overflow: hidden;
-    /* padding: 0; */
     margin: 0 auto;
     width: 99%;
 }
-
-/* added so I need to review */
-/* .gallery-container>div {
-    overflow: hidden;
-    clear: both;
-} */
 
 .image-one {
     grid-area: area-one;
@@ -557,7 +529,6 @@ footer {
 }
 
 /* style the heading over the gallery */
-
 #gym-gallery>h2,
 #gym-intro-video>h2 {
     text-align: center;
@@ -603,9 +574,6 @@ footer {
     padding: 15px 0;
 }
 
-/* #thank-you-note i {
-    font-size: 300%;
-} */
 .submitted-ok {
     font-size: 300%;
 }
