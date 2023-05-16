@@ -1022,6 +1022,23 @@ footer {
 
 @media screen and (max-width: 345px) {
 
+    #logo {
+        font-size: 140%;
+    }
+
+    #menu button {
+        height: 30px;
+        width: 60px;
+    }
+
+    #menu {
+        font-size: 10px;
+    }
+
+    #box-text {
+        font-size: 100%;
+    }
+
     /*  Style about us for scree 345px or below */
     #about-us {
         height: 975px;
