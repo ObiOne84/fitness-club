@@ -110,3 +110,13 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >   - The `#eb5e28` is to highlight action items for the user. The font change colour on the hover on all clickable elements, and the price box and sign-up form are set in the colour to highlight the action. Once clicked, the price box will bring the user to the join page.
 >
 > ![Color palette used for website.](/assets/screenshots/color-palette.jpg)
+---
+
+> - ### *Fonts* ###
+>
+>   - All fonts used for the website are sans-serif type to provide a clean, minimal and user-friendly design. In addition, the lack of font ornament increases the readability of the content text.
+>   - h1 and h2 heading use the "Fjalla One" font, whereas the remaining text is set to use the Cantarell font style.
+>   - Font are available from Google Fonts at <https://fonts.google.com/>
+>
+## Testing ##
+
