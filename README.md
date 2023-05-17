@@ -235,10 +235,36 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >
 >   - Press **Enter** to create clone.
 >
-> - Alternatively, you can fork a GitHub repistory. Keep in mind that if you forking repisotry, none of the udpates made to the source repo will be reflected in your forked repo. To fork repistory follow the steps below:
+> - Alternatively, you can fork a GitHub repository. Keep in mind that if you forking repisotry, none of the udpates made to the source repo will be reflected in your forked repo. To fork repository follow the steps below:
 >   - Login to your GitHub account.
->   - Go to the repistory you want to fork.
+>   - Go to the repository you want to fork.
 >   - In the top right corner of the window, click on the Fork button.
 >   - The process will start and you will see the message confirming start.
+>
+---
+
+## Credits ##
+
+> ### *Content* ###
+>
+> - The code for the social medial links was taken from the Code Institute tutorial 'Love Running' available [Here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/commit/a8b69289396e71897617b40be0d892649bac34ed)
+> - The gallery grid template was developed following grid tutorial available at [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+> - The code for flex box used on the main page, join page to position divs was developed following tutorial available at [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+> - The gym description was taken from [WordyBoy](https://thewordyboy.com/gym-business-about-us/)
+> - The instructions how to clone the Git Hub repository were taken from [GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+> - The instruction how to fork a GitHub repository were taken from [How-To-Geek](https://www.howtogeek.com/759384/how-to-fork-a-github-repository/)
+> - The gym address and location on the map was taken from [Google Maps for West Wood Club](https://www.google.co.uk/maps/place/West+Wood+Club/@53.293905,-6.1361134,17z/data=!3m1!4b1!4m6!3m5!1s0x48670623ec91143b:0xf9b460822731ba01!8m2!3d53.2939018!4d-6.1335331!16s%2Fg%2F1thn4yf_)
+>
+>
+---
+
+> ### *Media* ###
+>
+> - The favicons were developed and downloaded from [flaticon](https://www.flaticon.com/)
+> - The body content and footer icon were taken from [Font Awesome](https://fontawesome.com/)
+> - The her-images and gallery images were sourced from open source site [Unsplash](https://unsplash.com/s/photos/gym)
+> - The images used for classes background were sourced from open source site [Pexels](https://www.pexels.com/search/gym/)
+> - The video content was sourced from [Pexels](https://www.pexels.com/search/videos/gym/)
+> - The intro video was build with **Microsoft Clipchamp** by editing available templates and merging three different videos sourced for Pexels.
 >
 ---
