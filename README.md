@@ -189,7 +189,7 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 > ```
 >
 > - The size of the join page was not responsive, therefore the css file had to be altered, and form, padding and marigns resized.
-> - The navigation button was wrapped in 'a' element. This not affected funtionality of the website, but was highlighted by W3C Validator.
+> - The navigation button was wrapped in 'a' element. This not affected functionality of the website, but was highlighted by W3C Validator as an error.
 >
 > ```html
 > before:
@@ -209,3 +209,13 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 ---
 
 ## Deployment ##
+
+> - The sit was deployed to GitHub pages. The steps to deplay are as follows:
+>   - In the GitHub repistory, navigate to Settings tab
+>   - In the Settings menu go to Pages
+>   - From the source drop-down menu select Deploy from a branch
+>   - From the Branch drop-down menu select Main Branch, and Root
+>   - Click Save
+>   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+>
+> The live link can be found here: <https://obione84.github.io/fitness-club/>
