@@ -148,7 +148,7 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >
 > | Feature | Expected Action| Test Result|
 > |---------|----------------|------------|
-> | index.html | | |
+> | *index.html* | | |
 > | Main Logo - Onclick | Load home page, change font color | Pass |
 > | Navigation Buttons - Onclick | Load desired page, change button background and font color, move button down, add shadow | Pass |
 > | Navigation Button - Hover | Change font color | Pass |
@@ -156,12 +156,56 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 > | Price Box - Hover | Change font color and shadow | Pass |
 > | Price Box - Onclick | Load join page | Pass |
 > | Footer, Social Media - Onclick | Load desired page in separate tab | Pass |
-> | gallery.html | | |
+> | *gallery.html* | | |
 > | Video - Control Bar | Play video, unmute, expand to full screen | Pass |
-> | join.html | | |
-> | Form - Required Fields | All fields are required, email must include '@' element, if email entered incorrectly or missing any elements, form will not send | Pass |
-> | Form - Submit Message | Thank you message dispays on successful submission | Pass |
-> | thankyou.html | | |
-> | Link To Home Page | The link send user to the home page after click | Pass |
+> | *join.html* | | |
+> | Form - Required Fields | All fields are required, email must include '@' element, if email entered incorrectly or missing any element, form will not send | Pass |
+> | Form - Submit Message | Thank you message displays on successfull submission | Pass |
+> | *thankyou.html* | | |
+> | Link To Home Page | The link sends user to the home page after click | Pass |
 >
 ---
+
+## Bugs ##
+
+> ### *Solved Bugs* ###
+>
+> - The W3C Validator highlighted an error where thank you page contained an empty h3 heading. This did not affect the website's performance, but an error was resolved by removing the unnecessary heading.
+>
+> ```html
+> before:
+>   <h3><i class="fas fa-check-circle submitted-ok"></i></h3>
+> after:
+>   <i class="fas fa-check-circle submitted-ok"></i>
+> ```
+>
+> - Also, W3CcValidator indicated unsupported element used in the code
+>
+> ```html
+> before:
+>   <h3>Du&#769n Laoghaire</h3>
+> after:
+>   <h3>Dun Laoghaire</h3>
+> ```
+>
+> - The size of the join page was not responsive, therefore the css file had to be altered, and form, padding and marigns resized.
+> - The navigation button was wrapped in 'a' element. This not affected funtionality of the website, but was highlighted by W3C Validator.
+>
+> ```html
+> before:
+>   <a href="join.html"><button type="button">Join</button></a>
+> after:
+>   <button onclick="window.location.href='join.html';">Join</button>
+> ```
+>
+> - The fontawesome script was moved from under the body, to the head elemenet of the page.
+>
+---
+
+> ### *Unfixed Bugs* ###
+>
+> - None.
+>
+---
+
+## Deployment ##
