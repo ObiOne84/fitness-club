@@ -105,9 +105,9 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 
 > - ### *Color Palette* ###
 >
->   - The background colour for the website is set to be `#fffcf2`, with the body font colour set as `#403d39`, which provides contrast and makes the text easily readable for the user.
->   - The header and footer are set with `#252422` as a background colour and font to `#fffcf2`.
->   - The `#eb5e28` is to highlight action items for the user. The font change colour on the hover on all clickable elements, and the price box and sign-up form are set in the colour to highlight the action. Once clicked, the price box will bring the user to the join page.
+>   - The background color for the website is set to be `#fffcf2`, with the body font colour set as `#403d39`, which provides contrast and makes the text easily readable for the user.
+>   - The header and footer are set with `#252422` as a background color and font to `#fffcf2`.
+>   - The `#eb5e28` is to highlight action items for the user. The font change color on the hover on all clickable elements, and the price box and sign-up form are set in the color to highlight the action. Once clicked, the price box will bring the user to the join page.
 >
 > ![Color palette used for website.](assets/screenshots/color-palette.jpg)
 ---
@@ -139,3 +139,29 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >   - The website structure is responsive and was tested on various screen sizes with developer tools, and content and function display correctly down and all standard screen sizes. The navigation is intuitive, and the menu remains readable on various screens.
 >
 > ![Lighthouse accessibility test results](assets/screenshots/accessibility-results.jpg)
+>
+---
+
+> - ### *Features Testing* ###
+> 
+>   - Testing involved manual functionality checks of the website features listed in the table below. In addition, all clickable elements were checked by clicking and recording results. Pass result was granted for all features that match the expected outcome. The test was conducted on various screen sizes and using iPhone 12 Pro and iPad to ensure the expected outcomes repeat on mobile devices.
+>
+> | Feature | Expected Action| Test Result|
+> |---------|----------------|------------|
+> | index.html | | |
+> | Main Logo - Onclick | Load home page, change font color | Pass |
+> | Navigation Buttons - Onclick | Load desired page, change button background and font color, move button down, add shadow | Pass |
+> | Navigation Button - Hover | Change font color | Pass |
+> | Navigation Button - Active | Change background and font color, shift down and add shadow | Pass |
+> | Price Box - Hover | Change font color and shadow | Pass |
+> | Price Box - Onclick | Load join page | Pass |
+> | Footer, Social Media - Onclick | Load desired page in separate tab | Pass |
+> | gallery.html | | |
+> | Video - Control Bar | Play video, unmute, expand to full screen | Pass |
+> | join.html | | |
+> | Form - Required Fields | All fields are required, email must include '@' element, if email entered incorrectly or missing any elements, form will not send | Pass |
+> | Form - Submit Message | Thank you message dispays on successful submission | Pass |
+> | thankyou.html | | |
+> | Link To Home Page | The link send user to the home page after click | Pass |
+>
+---
