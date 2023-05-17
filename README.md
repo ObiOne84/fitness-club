@@ -17,10 +17,10 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >- ### *Navigation Bar* ###
 >
 >   - Featured at the top of the page, for all three pages, and Thank You page. The navigation bar is fully responsive and includes Logo, Home page, Gallery, and Join page. The navigation repeats on each page to provide easy navigation for the users.
->   - The logo and navigation buttons change colour to coral on the hover.
+>   - The logo and navigation buttons change color to shade of orange on the hover.
 > ![Hover over navigation button](assets/screenshots/hover-navigation.jpg)
->   - The reversed colour of the button, with a grey shadow, indicates an active page for the user.
->   -	Onclick, the button shifts down and changes the background colour to active, informing users about a successful click before directing the user to the chosen page.
+>   - The reversed color of the button, with a grey shadow, indicates an active page for the user.
+>   -	Onclick, the button shifts down and changes the background color to active, informing users about a successful click before directing the user to the chosen page.
 >   - The navigation section will allow users to easily navigate between the pages across various devices without using the back button.  
 >
 > ![Navigation menu bar](assets/screenshots/navigation-menu-bar.jpg)  
@@ -42,7 +42,7 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >   - The about us section contains general information about the Fitness Club and includes tables with opening times.
 >   - This section introduces the benefits of physical activity to the user and outlines coaching approaches for gym members. Also, this section briefly explains club offers, available equipment and supervised class.
 >   - The about us section includes a price offer and calls for action 'Join Now!'.
->   - Also, on hover, the font colour in the price offer box is reversed from black with white to white with black shade. Once clicked, it brings the user to the Join page.
+>   - Also, on hover, the font color in the price offer box is reversed from black with white to white with black shadow. Once clicked, it brings the user to the Join page.
 >
 > ![Screenshot of about us section](assets/screenshots/about-us-section.jpg)
 >
@@ -143,7 +143,7 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 ---
 
 > - ### *Features Testing* ###
-> 
+>
 >   - Testing involved manual functionality checks of the website features listed in the table below. In addition, all clickable elements were checked by clicking and recording results. Pass result was granted for all features that match the expected outcome. The test was conducted on various screen sizes and using iPhone 12 Pro and iPad to ensure the expected outcomes repeat on mobile devices.
 >
 > | Feature | Expected Action| Test Result|
@@ -219,3 +219,26 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 >
 > The live link can be found here: <https://obione84.github.io/fitness-club/>
+>
+---
+
+## Local Development ##
+
+> - To bring down project for local development, it is possible to clone a repository by following steps below:
+>   - On <https://github.com>, navigate to the main page of the repository.
+>   - Above the list of files, click green button Code.
+>   - Select Local tab
+>   - Copy to https code.
+>   - In you local IDE open terminal and choose the location where you want to clone directory.
+>
+>   - Type ``git clone`` and than paste the URL you copied from github.
+>
+>   - Press **Enter** to create clone.
+>
+> - Alternatively, you can fork a GitHub repistory. Keep in mind that if you forking repisotry, none of the udpates made to the source repo will be reflected in your forked repo. To fork repistory follow the steps below:
+>   - Login to your GitHub account.
+>   - Go to the repistory you want to fork.
+>   - In the top right corner of the window, click on the Fork button.
+>   - The process will start and you will see the message confirming start.
+>
+---
