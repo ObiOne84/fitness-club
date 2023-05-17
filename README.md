@@ -124,10 +124,18 @@ Click [HERE](https://obione84.github.io/fitness-club/index.html	) to visit live 
 >
 > | File Name | File Type | Validator Test Result | Validator|
 > |-----------|-----------|-----------------------|----------|
-> | index| html | pass, no errors or warnings to show | W3C Validator |
-> |join | html | pass, no errors or warnings to show | W3C Validator |
-> | gallery | html | pass, no errors or warnings to show | W3C Validator |
-> | thankyou | html | pass, no errors or warnings to show | W3C Validator |
-> | style | css | pass, no error found | W3C CSS Validator |
+> | index| html | pass, no errors or warnings to show | [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fobione84.github.io%2Ffitness-club%2F) |
+> |join | html | pass, no errors or warnings to show | [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fobione84.github.io%2Ffitness-club%2Fjoin.html) |
+> | gallery | html | pass, no errors or warnings to show | [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fobione84.github.io%2Ffitness-club%2Fgallery.html) |
+> | thankyou | html | pass, no errors or warnings to show | [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fobione84.github.io%2Ffitness-club%2Fthankyou.html%3Ffirst_name%3Da%26last_name%3Da%26birthday%3D2023-05-11%26email_address%3Dabc%2540mail.com) |
+> | style | css | pass, no error found | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fobione84.github.io%2Ffitness-club%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) |
 >
 ---
+
+> - ### *Accessibility Testing* ###
+>
+>   - The website passed the accessibility test through the lighthouse function in Chrome developer tools. The fonts and colors are accessible, providing sufficient contrast and making content easily readable.
+>   - The website was tested and worked correctly with Chrome, Safari, Edge and Firefox browsers.
+>   - The website structure is responsive and was tested on various screen sizes with developer tools, and content and function display correctly down and all standard screen sizes. The navigation is intuitive, and the menu remains readable on various screens.
+>
+> ![Lighthouse accessibility test results](assets/screenshots/accessibility-results.jpg)
