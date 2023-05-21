@@ -94,7 +94,7 @@ header {
     overflow: hidden;
 }
 
-/* set postion of the image-holder as relative to  */
+/* set postion of the image-holder with flex-box "A complete guide to Flexbox"  */
 #image-holder {
     height: 50vw;
     display: flex;
@@ -154,7 +154,7 @@ td {
     padding: 5px;
 }
 
-/* style price-offer with the flex-box css.tricks.com*/
+/* style price-offer with the flex-box "A complete guide to Flexbox" */
 #right-about-us {
     display: flex;
     align-items: center;
@@ -201,7 +201,7 @@ td {
     font-size: 150%;
 }
 
-/* style classes section */
+/* style classes section "A complete guide to Flexbox" */
 #classes {
     display: flex;
     align-items: center;
@@ -272,7 +272,7 @@ td {
     height: 80%;
 }
 
-/* style footer */
+/* style footer "Love Running" tutorial */
 footer {
     height: 150px;
     background-color: #252422;
@@ -396,7 +396,7 @@ footer {
     color: #252422;
 }
 
-/* style contact details and location section */
+/* style contact details and location section "A complete guide to Flexbox" */
 #contact-and-location {
     display: flex;
     flex-direction: row;
@@ -451,7 +451,7 @@ footer {
     color: #eb5e28;
 }
 
-/* style gallery - container grid */
+/* style gallery - container grid "A complete guide to CSS Grid"*/
 .gallery-container {
     display: grid;
     grid:
